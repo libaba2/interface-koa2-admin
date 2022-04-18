@@ -20,15 +20,15 @@
 > 安装依赖
 > 启动 package.json 中的 start 命令
 > 出现如下提示则运行成功
-> `[nodemon] restarting due to changes...`
-> `[nodemon] restarting due to changes...`
-> `[nodemon] starting 'node start.js'`
+> `[nodemon] restarting due to changes...`  
+> `[nodemon] restarting due to changes...`  
+> `[nodemon] starting 'node start.js'`  
 > `app started at port 9000...`
 ---
 #### 接口访问示例
-> `$.ajax({`
-`url: "http://localhost:9000/user/seleUser",`
-`type: "GET",`
-`dataType: "json",`
-`data: { username: "tom2" },`
-`});`
+> `$.ajax({`  
+> `url: "http://localhost:9000/user/seleUser",`    
+> `type: "GET",`  
+> `dataType: "json",`  
+> `data: { username: "tom2" },`  
+> `});`
